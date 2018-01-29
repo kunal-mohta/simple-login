@@ -10,3 +10,8 @@ Technologies used -
 **NOTE:-**
 - Project currently runs only on a local server provided by [Express](https://expressjs.com/)
 - UI was not given much importance as the aim was only to get basic understanding of how Frontend and Backend interact and work together.
+
+![ss1](https://raw.githubusercontent.com/kunal-mohta/simple-login/master/screenshots/ss1.png)
+![ss2](https://raw.githubusercontent.com/kunal-mohta/simple-login/master/screenshots/ss2.png)
+![ss3](https://raw.githubusercontent.com/kunal-mohta/simple-login/master/screenshots/ss3.png)
+![ss4](https://raw.githubusercontent.com/kunal-mohta/simple-login/master/screenshots/ss4.png)
