@@ -1,5 +1,5 @@
 $(function(){
-
+    var baseaddress = 'localhost:3000'
 	$('#login').click(function(e){
 		e.preventDefault();
 		
@@ -8,7 +8,7 @@ $(function(){
 		//ajax request for login
 		$.ajax({
 			type:'POST',
-			url:'http://localhost:3000/login/',
+			url:'http://'+baseaddress+'/login/',
 			data:{
 				username:username,
 				password:password
@@ -33,7 +33,7 @@ $(function(){
 		//ajax request for signup
 		$.ajax({
 			type:'POST',
-			url:'http://localhost:3000/signup/',
+			url:'http://'+baseaddress+'/signup/',
 			data:{
 				username:username,
 				password:password

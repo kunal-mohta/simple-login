@@ -1,9 +1,9 @@
 $(function(){
-	
+	var baseaddress = 'localhost:3000';
 	//ajax request to get all users
 	$.ajax({
 		type:'GET',
-		url:'http://localhost:3000/admin/',
+		url:'http://'+baseaddress+'/admin/',
 		complete:function(xhr,textstatus){
 			var userArray = xhr.responseJSON;
 
@@ -39,7 +39,7 @@ $(function(){
 				//ajax request to delete a user
 				$.ajax({
 					type:'DELETE',
-					url:'http://localhost:3000/admin/',
+					url:'http://'+baseaddress+'/admin/',
 					data:{username:username},
 					complete:function(xhr,textstatus){
 						e.target.parentNode.parentNode.remove();
